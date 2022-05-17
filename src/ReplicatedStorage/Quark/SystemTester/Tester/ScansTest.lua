@@ -1,7 +1,7 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local Objects = workspace.Objects
-local Information = ReplicatedStorage.Source.ParticleSystem.Information
+local Information = ReplicatedStorage.Source.Quark.Information
 
 local Scanner = require(Information.Scanner)
 

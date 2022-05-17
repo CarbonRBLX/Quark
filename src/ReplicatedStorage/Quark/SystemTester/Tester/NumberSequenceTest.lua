@@ -1,9 +1,9 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local System = require(ReplicatedStorage.Source.ParticleSystem)
+local Quark = require(ReplicatedStorage.Source.Quark)
 
 local function NumberSequenceTest()
-    local Sequence = System.GetType("NumberSequence").new({
+    local Sequence = Quark.GetType("NumberSequence").new({
         {0, 0},
         {0.2, .8},
         {0.7, .8},

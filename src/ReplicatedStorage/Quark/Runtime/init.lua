@@ -1,9 +1,9 @@
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local ParticleSystem = ReplicatedStorage.Source.ParticleSystem
+local Quark = ReplicatedStorage.Source.Quark
 
-local SystemTester = require(ParticleSystem.SystemTester)
-local System = require(ParticleSystem.System)
+local SystemTester = require(Quark.SystemTester)
+local System = require(Quark.System)
 
 local Runtime = {}
 

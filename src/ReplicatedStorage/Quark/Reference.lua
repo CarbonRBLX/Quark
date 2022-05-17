@@ -1,7 +1,7 @@
 --// Fixing warnings
-local ParticleSystem, FireParticle = {}, {}
+local Quark, FireParticle = {}, {}
 
-local System = ParticleSystem.new()
+local System = Quark.new()
 local Parent = workspace.FirePlace
 
 local emitter = System.Emitter.new()
