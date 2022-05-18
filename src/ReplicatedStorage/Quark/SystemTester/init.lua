@@ -1,5 +1,5 @@
 local SystemTester = {
-    Tests = {},
+    Tests = {"ScansTest"},
     _loadedTests = {}
 }
 

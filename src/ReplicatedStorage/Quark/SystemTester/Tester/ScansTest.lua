@@ -6,7 +6,7 @@ local Information = ReplicatedStorage.Source.Quark.Information
 local Scanner = require(Information.Scanner)
 
 local function TestScan(ScanObject)
-    local Points = Scanner.Scan(ScanObject, 1000)
+    local Points = Scanner.Scan(ScanObject, 750)
 
     for _, Point in ipairs(Points) do
         local Attachment = Instance.new("Attachment")
@@ -19,7 +19,7 @@ local function TestScan(ScanObject)
 end
 
 local function ScansTest()
-    return TestScan(Objects.Triangle) and TestScan(Objects.Part)
+    return TestScan(Objects.Body) and TestScan(Objects.Part)
 end
 
 return ScansTest

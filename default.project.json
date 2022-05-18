@@ -17,6 +17,19 @@
       "Source": {
         "$path": "src/ServerScriptService"
       }
+    },
+
+    "StarterPlayer": {
+        "$className": "StarterPlayer",
+        "$ignoreUnknownInstances": true,
+        
+        "StarterPlayerScripts": {
+            "$className": "StarterPlayerScripts",
+            "$ignoreUnknownInstances": true,
+            "Source": {
+                "$path": "src/StarterPlayerScripts"
+            }
+        }
     }
   }
 }

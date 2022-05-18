@@ -14,11 +14,11 @@ NumberSequence.__index = NumberSequence
 function NumberSequence.new(...)
     local Values = {}
 
-    Overload():AddOverload(function(Table)
+    Overload():Register(function(Table)
         Values = Table
-    end, {typeof(Values)}):AddOverload(function(Value)
+    end, {typeof(Values)}):Register(function(Value)
         Values = {0, Value}
-    end, {typeof(0)}):AddOverload(function(N0, N1)
+    end, {typeof(0)}):Register(function(N0, N1)
         Values = {
             {0, N0},
             {1, N1}
